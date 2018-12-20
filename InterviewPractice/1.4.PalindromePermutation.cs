@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterviewPractice
 {
-    // Problem 1.4 from Cracking the coding interview
+    // Problem 1.4 Palindrome Permutation from Cracking the coding interview
     public class PalindromePermutation
     {
 
@@ -20,7 +20,7 @@ namespace InterviewPractice
                 if (str[i] >= 'a' && str[i] <= 'z')
                 {
                     count++;
-                    int index = (int)str[i] - (int)'a';
+                    int index = str[i] - 'a';
                     arr[index] = arr[index] + 1;
                 }
             }
