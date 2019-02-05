@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPractice", "Interv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPracticeTestCases", "InterviewPracticeTestCases\InterviewPracticeTestCases.csproj", "{F6687324-A1E0-4E0C-A88A-F060EFF06143}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingInteriewConsoleProject", "CodingInteriewConsoleProject\CodingInteriewConsoleProject.csproj", "{CD80A0AD-3D99-479C-AFFA-2BB06DC3D3E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F6687324-A1E0-4E0C-A88A-F060EFF06143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6687324-A1E0-4E0C-A88A-F060EFF06143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6687324-A1E0-4E0C-A88A-F060EFF06143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD80A0AD-3D99-479C-AFFA-2BB06DC3D3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD80A0AD-3D99-479C-AFFA-2BB06DC3D3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD80A0AD-3D99-479C-AFFA-2BB06DC3D3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD80A0AD-3D99-479C-AFFA-2BB06DC3D3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

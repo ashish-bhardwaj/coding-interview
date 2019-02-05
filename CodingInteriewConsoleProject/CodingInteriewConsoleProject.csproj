@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4C8F9D0-2F76-4282-9344-B9E750DBE2D5}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>InterviewPractice</RootNamespace>
-    <AssemblyName>InterviewPractice</AssemblyName>
+    <ProjectGuid>{CD80A0AD-3D99-479C-AFFA-2BB06DC3D3E5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CodingInteriewConsoleProject</RootNamespace>
+    <AssemblyName>CodingInteriewConsoleProject</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,10 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1.9.StringRotation.cs" />
-    <Compile Include="1.4.PalindromePermutation.cs" />
-    <Compile Include="Others\PrintArrayRecursive.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InterviewPractice\InterviewPractice.csproj">
+      <Project>{d4c8f9d0-2f76-4282-9344-b9e750dbe2d5}</Project>
+      <Name>InterviewPractice</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
