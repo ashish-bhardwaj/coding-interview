@@ -31,7 +31,19 @@ namespace InterviewPractice.DailyCodingProblem
         The name of a file contains at least a period and an extension.
         The name of a directory or sub-directory will not contain a period.
      */
+    
+    /* Solution complexity:
+     * Time complextiy: O(n)
+     * Space complexty : O(n)
+     * */
 
+    /* Solution overview:
+     * Iterate from the beginning and keep a track of the folders/file names
+     * Keep a track only of the latest ongoing folder during parsing
+     * The folder is tracked in dirs list.
+     * When we find a file name we check its the length of dirs list and length of file + number of \ used to prepare the file path.
+     * This is checked with maxlen and stored in it if bigger.
+     * */
     public class Problem17
     {
         public Problem17() { }
