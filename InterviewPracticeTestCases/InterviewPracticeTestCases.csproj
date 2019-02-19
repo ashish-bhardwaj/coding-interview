@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.9.StringRotationTest.cs" />
+    <Compile Include="DailyCodingProblem\Problem2Tests.cs" />
     <Compile Include="DailyCodingProblem\Problem1Tests.cs" />
     <Compile Include="DailyCodingProblem\Problem17Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
