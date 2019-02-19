@@ -109,7 +109,7 @@ namespace InterviewPractice.DailyCodingProblem
             foreach (string s in dirs)
                 len += s.Length;
 
-            // Adding lenght for \
+            // Adding lenght for required \s to prepare absolute path.
             len += dirs.Count-1;
 
             return len;
