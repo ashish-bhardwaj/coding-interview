@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="1.9.StringRotation.cs" />
     <Compile Include="1.4.PalindromePermutation.cs" />
+    <Compile Include="DailyCodingProblem\Problem17.cs" />
     <Compile Include="Others\PrintArrayRecursive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
